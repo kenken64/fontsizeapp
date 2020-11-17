@@ -1,14 +1,13 @@
-<!-- <p>{{firstname}}</p>
+<p>{{firstname}}</p>
 <br>
 <p>{{names}}</p>
 <br>
 <ul>
     <li *ngFor="let x of names; let i =index">
-        {{i+1}} - {{x}}
+      {{i+1}} - {{x}}
     </li>
 </ul>
 <br>
-{{isOk}}
 <p *ngIf="isOk">
     Hello How are you !
 </p>
@@ -17,7 +16,8 @@
     Hello Not OK
 </p>
 <br>
-<button (click)="onSubmit()" [disabled]="isDisabled">Submit</button> -->
+<button (click)="onSubmit()" [disabled]="isDisabled">Submit</button>
+<br>
 <app-fontsize message="Kenneth" 
   (onFontSize)="sizeChanged($event)">
 </app-fontsize>
